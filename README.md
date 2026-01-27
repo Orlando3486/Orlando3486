@@ -103,4 +103,5 @@ Seguir creciendo como Backend / Full Stack Developer
 
 **Gracias por visitar mi perfil 🙌**
 
-Siempre abierto a aprender, colaborar y asumir nuevos desafíos. Estoy abierto a oportunidades como **Backend Developer** o **Full Stack Developer**.
+Siempre abierto a aprender, colaborar y asumir nuevos desafíos. 
+Estoy abierto a oportunidades como **Backend Developer** o **Full Stack Developer**.
