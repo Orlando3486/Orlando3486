@@ -33,7 +33,7 @@ Swagger UI
 Linux / CLI
 
 
-## 🚀 Proyecto Destacado
+## 🚀 Proyectos Destacados
 
 ### 🍽️ Si Chef – Plataforma Gastronómica (Full Stack)
 Proyecto en desarrollo orientado al ecosistema gastronómico.
@@ -95,8 +95,12 @@ Seguir creciendo como Backend / Full Stack Developer
 
 ## 📫 Contacto
 
-📧 Email: orlandozarraga31@hotmail.com
-💼 LinkedIn: www.linkedin.com/in/orlando-ismael-zarraga-medina-327211171
-🧑‍💻 GitHub: https://github.com/Orlando3486
-Gracias por visitar mi perfil 🙌
+# 📧 Email: orlandozarraga31@hotmail.com
+
+# 💼 LinkedIn: www.linkedin.com/in/orlando-ismael-zarraga-medina-327211171
+
+# 🧑‍💻 GitHub: https://github.com/Orlando3486
+
+**Gracias por visitar mi perfil 🙌**
+
 Siempre abierto a aprender, colaborar y asumir nuevos desafíos. Estoy abierto a oportunidades como **Backend Developer** o **Full Stack Developer**.
