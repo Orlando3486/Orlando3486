@@ -50,14 +50,15 @@ React / Next.js,
 Consumo de API REST,
 Manejo de estado y formularios.
 
-🔗 Repositorio:
+**🔗 Repositorio:**
 👉 https://github.com/Orlando3486/sichef
-**pagina web:** https://si-chef.vercel.app/guest
+
+**Pagina Web:** https://si-chef.vercel.app/guest
 
 ### 🛒 E-commerce Backend API
 API REST para un sistema de e-commerce, desarrollada con NestJS y PostgreSQL, enfocada en buenas prácticas y uso real en producción.
 
-**✨ Características**
+**✨ Características:**
 Arquitectura modular con NestJS,
 CRUD completo de productos, categorías y usuarios,
 Autenticación y autorización con JWT,
@@ -67,7 +68,7 @@ Documentación completa con Swagger,
 Seed de datos iniciales,
 Despliegue en Render.
 
-**🧩 Tecnologías.**
+**🧩 Tecnologías:**
 NestJS,
 PostgreSQL,
 TypeORM,
