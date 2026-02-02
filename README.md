@@ -2,7 +2,7 @@
 ### Backend / Full Stack Developer
 📍 Argentina | 🌎 Abierto a oportunidades remotas.
 
-Soy Desarrollador **Backend / Full Stack** con foco en Node.js y NestJS, experiencia construyendo APIs REST escalables, documentadas con Swagger, conectadas a PostgreSQL y desplegadas en Render.
+Soy Desarrollador **Backend / Full Stack** con foco en Node.js, TypeScript, React y NestJS, experiencia construyendo APIs REST escalables, documentadas con Swagger, conectadas a PostgreSQL y desplegadas en Render.
 
 Me interesa especialmente el desarrollo de arquitecturas limpias, buenas prácticas, autenticación, manejo de bases de datos y despliegues en entornos reales. Disfruto resolver problemas, aprender de forma constante y llevar proyectos desde cero hasta producción.
 
