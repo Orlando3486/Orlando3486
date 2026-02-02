@@ -75,7 +75,7 @@ TypeORM,
 Swagger,
 JWT.
 
-🔗 Repositorio: Ecommerce Backend API
+**🔗 Repositorio:** 👉 https://github.com/Orlando3486/Ecommerce
 📄 **Swagger:** https://ecommerce-ob6z.onrender.com/api
 
 ## 📚 Buenas Prácticas Aplicadas
