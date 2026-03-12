@@ -102,7 +102,7 @@ Seguir creciendo como Backend / Full Stack Developer.
 
  📧 Email: orlandozarraga31@hotmail.com
 
- 💼 LinkedIn: www.linkedin.com/in/orlando-ismael-zarraga-medina-327211171
+ 💼 LinkedIn: https://www.linkedin.com/in/orlando-ismael-zarraga-medina-327211171
 
  🧑‍💻 GitHub: https://github.com/Orlando3486
 
