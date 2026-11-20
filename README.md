@@ -1,6 +1,6 @@
 <!-- ===================== ENCABEZADO ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e3a8a,100:06b6d4&height=230&section=header&text=Orlando%20Zarraga&fontSize=56&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Backend%20%2F%20Full%20Stack%20Developer&descAlignY=62&descSize=20&stroke=06b6d4&strokeWidth=1" width="100%" alt="Orlando Zarraga"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:1e3a8a,100:0e7490&height=190&section=header&text=Orlando%20Zarraga&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Backend%20%2F%20Full%20Stack%20Developer&descAlignY=70&descSize=20" width="100%" alt="Orlando Zarraga"/>
 </p>
 
 <p align="center">
@@ -78,58 +78,56 @@ const orlando = {
 
 ## 🚀 Proyectos destacados
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🏥 ZarMedi</h3>
-      <p>Software de gestión para centros de salud, <b>en producción con clientes reales</b>: turnos, historia clínica, teleconsulta, recetas y atención por WhatsApp. Backend modular con DDD (Diseño Guiado por el Dominio), multi-tenancy y roles; frontend PWA (Aplicación Web Progresiva) mobile-first.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </p>
-      <a href="https://zarmedi.com">🌐 zarmedi.com</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🍽️ Si Chef</h3>
-      <p>Plataforma full stack para el ecosistema gastronómico: API REST modular con roles y permisos, autenticación JWT (JSON Web Token) e integración de servicios externos.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-        <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-TypeORM-FE0803?style=flat-square&logo=typeorm&logoColor=white"/>
-      </p>
-      <a href="https://github.com/Orlando3486/sichef">📂 Repositorio</a> &nbsp;•&nbsp;
-      <a href="https://si-chef.vercel.app/guest">🌐 Demo</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛒 E-commerce API</h3>
-      <p>API REST para e-commerce con CRUD (crear, leer, actualizar, eliminar) de productos, categorías y usuarios, roles, validaciones, seed de datos y documentación completa en Swagger. Desplegada en Render.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
-        <img src="https://img.shields.io/badge/-JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-      </p>
-      <a href="https://github.com/Orlando3486/Ecommerce">📂 Repositorio</a> &nbsp;•&nbsp;
-      <a href="https://ecommerce-ob6z.onrender.com/api">📄 Swagger en vivo</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏢 Intranet corporativa</h3>
-      <p>Intranet desarrollada durante mi pasantía en Monetae: backend con NestJS y DDD, frontend en Next.js, trabajo en equipo con revisión de PR (Pull Requests) y flujo por ramas.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-DDD-6E40C9?style=flat-square"/>
-      </p>
-      <i>🔒 Código privado de la empresa</i>
-    </td>
-  </tr>
-</table>
+### 🏥 ZarMedi — Software de gestión para centros de salud
+Plataforma SaaS (Software como Servicio) **en producción con clientes reales**: turnos, historia clínica, teleconsulta, recetas y atención por WhatsApp.
+
+- Backend modular con DDD (Diseño Guiado por el Dominio), multi-tenancy (varios clientes aislados en una misma plataforma) y roles.
+- Frontend PWA (Aplicación Web Progresiva) responsiva y mobile-first.
+- Integración de pagos online y mensajería por WhatsApp.
+
+**Stack:** NestJS · Next.js · TypeScript · PostgreSQL · Redis · Docker
+
+🌐 **Sitio web:** [zarmedi.com](https://zarmedi.com)
+
+---
+
+### 🍽️ Si Chef — Plataforma gastronómica (Full Stack)
+Plataforma para el ecosistema gastronómico con backend y frontend propios.
+
+- API REST (Interfaz de Programación de Aplicaciones) modular con NestJS.
+- Autenticación con JWT (JSON Web Token), roles y permisos.
+- Integración de servicios externos; frontend en React / Next.js con manejo de estado y formularios.
+
+**Stack:** NestJS · React · Next.js · PostgreSQL · TypeORM
+
+📂 **Repositorio:** [github.com/Orlando3486/sichef](https://github.com/Orlando3486/sichef)
+🌐 **Demo:** [si-chef.vercel.app](https://si-chef.vercel.app/guest)
+
+---
+
+### 🛒 E-commerce API — Backend para tienda online
+API REST lista para producción, desplegada en Render.
+
+- CRUD (crear, leer, actualizar y eliminar) de productos, categorías y usuarios.
+- Autenticación y autorización con JWT y manejo de roles.
+- Validaciones con class-validator, seed de datos iniciales y documentación completa con Swagger.
+
+**Stack:** NestJS · PostgreSQL · TypeORM · Swagger · JWT
+
+📂 **Repositorio:** [github.com/Orlando3486/Ecommerce](https://github.com/Orlando3486/Ecommerce)
+📄 **Swagger en vivo:** [ecommerce-ob6z.onrender.com/api](https://ecommerce-ob6z.onrender.com/api)
+
+---
+
+### 🏢 Intranet corporativa — Monetae
+Intranet de cumplimiento normativo desarrollada durante mis prácticas.
+
+- Backend con NestJS bajo DDD y frontend con Next.js.
+- Trabajo en equipo con PR (Pull Requests), code review y flujo por ramas.
+
+**Stack:** NestJS · Next.js · TypeScript
+
+🔒 *Código privado de la empresa*
 
 ---
 
@@ -240,5 +238,5 @@ Sumarme a un equipo como **Backend o Full Stack Developer** donde pueda trabajar
 
 <!-- ===================== PIE ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:06b6d4,50:1e3a8a,100:0f172a&height=140&section=footer&reversal=true&text=%C2%A1Gracias%20por%20visitar!&fontSize=26&fontColor=ffffff&fontAlign=70&fontAlignY=72&animation=fadeIn" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e7490,50:1e3a8a,100:0f172a&height=90&section=footer&text=%C2%A1Gracias%20por%20visitar!%20%F0%9F%99%8C&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
 </p>
