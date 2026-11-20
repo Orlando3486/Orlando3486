@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0e7490">
+        <animate attributeName="stop-color" values="#0e7490;#1e3a8a;#0f172a;#0e7490" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#0f172a">
+        <animate attributeName="stop-color" values="#0f172a;#0e7490;#1e3a8a;#0f172a" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <clipPath id="r"><rect width="1200" height="110" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="110" fill="url(#bg)"/>
+    <path fill="#06b6d4" fill-opacity="0.18" d="M0 20 Q150 45 300 20 T600 20 T900 20 T1200 20 T1500 20 T1800 20 T2100 20 T2400 20 V0 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <text x="600" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" text-anchor="middle" fill="#ffffff">¡Gracias por visitar! 🙌
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
