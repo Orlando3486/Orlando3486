@@ -1,6 +1,6 @@
 <!-- ===================== ENCABEZADO ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,50:1e3a8a,100:0e7490&height=190&section=header&text=Orlando%20Zarraga&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Backend%20%2F%20Full%20Stack%20Developer&descAlignY=70&descSize=20" width="100%" alt="Orlando Zarraga"/>
+  <img src="./assets/header.svg" width="100%" alt="Orlando Zarraga"/>
 </p>
 
 <p align="center">
@@ -238,5 +238,5 @@ Sumarme a un equipo como **Backend o Full Stack Developer** donde pueda trabajar
 
 <!-- ===================== PIE ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0e7490,50:1e3a8a,100:0f172a&height=90&section=footer&text=%C2%A1Gracias%20por%20visitar!%20%F0%9F%99%8C&fontSize=24&fontColor=ffffff&fontAlignY=55&animation=fadeIn" width="100%"/>
+  <img src="./assets/footer.svg" width="100%"/>
 </p>
