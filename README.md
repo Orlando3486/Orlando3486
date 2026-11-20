@@ -1,6 +1,6 @@
 <!-- ===================== ENCABEZADO ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=200&section=header&text=Orlando%20Zarraga&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Backend%20%2F%20Full%20Stack%20Developer&descAlignY=58&descSize=20" width="100%" alt="Orlando Zarraga"/>
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0f172a,50:1e3a8a,100:06b6d4&height=230&section=header&text=Orlando%20Zarraga&fontSize=56&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=Backend%20%2F%20Full%20Stack%20Developer&descAlignY=62&descSize=20&stroke=06b6d4&strokeWidth=1" width="100%" alt="Orlando Zarraga"/>
 </p>
 
 <p align="center">
@@ -26,15 +26,17 @@
 
 Desarrollo **backends robustos y aplicaciones web completas** con Node.js, NestJS, TypeScript y React/Next.js. Me enfoco en construir **APIs REST** (Interfaz de Programación de Aplicaciones con transferencia de estado representacional) seguras, documentadas y listas para producción, con arquitecturas limpias que escalan junto al negocio.
 
-Llevo proyectos **desde cero hasta producción**: modelado de datos, autenticación, despliegue y mantenimiento. Hoy soy el desarrollador principal de **ZarMedi**, una plataforma SaaS (Software como Servicio) en uso real por centros de salud.
+Llevo proyectos **desde cero hasta producción**: modelado de datos, autenticación, despliegue y mantenimiento. Hoy soy el desarrollador principal de **ZarMedi**, una plataforma SaaS (Software como Servicio) en uso real por centros de salud, y desarrollador backend freelance para clientes en España.
 
 ```typescript
 const orlando = {
   rol: "Backend / Full Stack Developer",
   ubicacion: "Argentina 🇦🇷 — trabajo remoto",
-  backend: ["Node.js", "NestJS", "TypeScript", "PostgreSQL", "TypeORM"],
-  frontend: ["React", "Next.js"],
-  enfoque: ["Arquitectura limpia", "Seguridad", "APIs documentadas", "Deploy real"],
+  backend: ["Node.js", "NestJS", "Express", "TypeScript", "PostgreSQL", "Redis"],
+  frontend: ["React", "Next.js", "Tailwind CSS", "PWA"],
+  arquitectura: ["DDD", "Hexagonal", "Clean Architecture", "SOLID", "Multi-tenancy"],
+  cloud: ["Docker", "AWS", "CI/CD"],
+  formacion: ["Henry Bootcamp (800 h)", "Codo a Codo 4.0", "Tecnicatura en Programación — UTN"],
   buscando: "Un equipo donde aportar valor desde el día uno",
 };
 ```
@@ -45,17 +47,17 @@ const orlando = {
 
 <p align="center">
   <b>Backend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,ts,postgres,redis,supabase,python,php&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,ts,postgres,mysql,redis,supabase,python,php&theme=dark" />
 </p>
 
 <p align="center">
   <b>Frontend</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,html,css,tailwind&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,js,html,css,tailwind&theme=dark" />
 </p>
 
 <p align="center">
   <b>DevOps & Herramientas</b><br/><br/>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,postman,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,aws,vercel,jest,linux,postman&theme=dark" />
 </p>
 
 <p align="center">
@@ -64,7 +66,12 @@ const orlando = {
   <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
   <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black"/>
   <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Insomnia-4000BF?style=flat-square&logo=insomnia&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OAuth2-EB5424?style=flat-square&logo=auth0&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mercado%20Pago-00B1EA?style=flat-square&logo=mercadopago&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white"/>
 </p>
 
 ---
@@ -75,12 +82,13 @@ const orlando = {
   <tr>
     <td width="50%" valign="top">
       <h3>🏥 ZarMedi</h3>
-      <p>Plataforma SaaS de gestión para centros de salud y estética, <b>en producción con clientes reales</b>. Desarrollador principal: backend, frontend, infraestructura y despliegue.</p>
+      <p>Software de gestión para centros de salud, <b>en producción con clientes reales</b>: turnos, historia clínica, teleconsulta, recetas y atención por WhatsApp. Backend modular con DDD (Diseño Guiado por el Dominio), multi-tenancy y roles; frontend PWA (Aplicación Web Progresiva) mobile-first.</p>
       <p>
         <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
         <img src="https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
       <a href="https://zarmedi.com">🌐 zarmedi.com</a>
     </td>
@@ -112,7 +120,7 @@ const orlando = {
     </td>
     <td width="50%" valign="top">
       <h3>🏢 Intranet corporativa</h3>
-      <p>Intranet desarrollada durante mi pasantía en Monetae: backend con NestJS y DDD (Diseño Guiado por el Dominio), frontend en Next.js, trabajo en equipo con revisión de PR (Pull Requests) y flujo por ramas.</p>
+      <p>Intranet desarrollada durante mi pasantía en Monetae: backend con NestJS y DDD, frontend en Next.js, trabajo en equipo con revisión de PR (Pull Requests) y flujo por ramas.</p>
       <p>
         <img src="https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white"/>
         <img src="https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
@@ -128,34 +136,54 @@ const orlando = {
 ## 💼 Experiencia
 
 <details open>
-<summary><b>🧪 Monetae (El Salvador) — Pasantía Backend / Full Stack</b> · jul 2026 – oct 2026</summary>
+<summary><b>🏥 ZarMedi — Full Stack Developer (proyecto propio)</b> · 2026 – presente</summary>
 <br/>
 
-- Desarrollo de una intranet corporativa con NestJS, Next.js y arquitectura DDD junto a un líder técnico.
-- Construcción de endpoints, revisión de PR de compañeros y coordinación de tareas dentro del equipo.
+- Backend como monolito modular con arquitectura hexagonal y DDD, multi-tenancy y roles RBAC (control de acceso basado en roles).
+- Frontend PWA responsiva y mobile-first en Next.js con TanStack Query, Zustand y Zod.
+- Integración de IA generativa, bot de WhatsApp con colas asíncronas y pagos con Mercado Pago y Stripe.
+</details>
+
+<details open>
+<summary><b>♾️ Infinity Software — Backend Developer (freelance, remoto, España)</b> · may 2026 – presente</summary>
+<br/>
+
+- Plataforma de gestión de ventas a crédito y cobranza para un cliente en España.
+- Lideré el diseño de la arquitectura en capas y desarrollé la mayoría de los módulos: cobranza, caja y reportes.
+- Autenticación JWT, aislamiento de datos multi-empresa, roles, Docker y despliegue.
 </details>
 
 <details>
-<summary><b>💻 IT Resources Innovations LLC — Full Stack Developer (freelance)</b> · may 2023 – dic 2025</summary>
+<summary><b>🧪 Monetae — Full Stack Developer (prácticas, remoto, El Salvador)</b> · jul 2026 – oct 2026</summary>
 <br/>
 
-- Desarrollo de aplicaciones web de punta a punta, del backend a la interfaz.
-- Integración de APIs, bases de datos y despliegues en entornos reales.
+- Intranet de cumplimiento normativo desarrollada end-to-end junto al líder técnico: NestJS bajo DDD y Next.js.
+- Coordiné a dos desarrolladores mediante Pull Requests y code review.
 </details>
 
 <details>
-<summary><b>⚙️ Trami (Perú) — Backend Developer (práctica)</b> · 3 meses</summary>
+<summary><b>🌍 MMI Internacional — Full Stack Developer (prácticas part time, remoto, España)</b> · mar 2026 – jun 2026</summary>
 <br/>
 
-- Desarrollo y mantenimiento de servicios backend.
+- Plataforma de gestión y publicación de noticias de radio y TV.
+- Automaticé la validación de noticias con Python y un modelo de lenguaje local; refactoricé y rediseñé interfaces en PHP.
 </details>
 
 <details>
-<summary><b>🌍 MMI Internacional / Equipamientos Canarias (España) — Full Stack (práctica)</b> · 3 meses</summary>
+<summary><b>⚙️ Trama — Backend Developer (prácticas part time, remoto, Perú)</b> · mar 2026 – jun 2026</summary>
 <br/>
 
-- Refactorización de código PHP y rediseño visual de una plataforma de noticias.
-- Automatización de la publicación de contenido con Python.
+- Software de diagnóstico de gestión para emprendedores.
+- Como backend principal construí la mayoría de los módulos: autenticación completa, Google OAuth y motor de diagnóstico.
+</details>
+
+<details>
+<summary><b>💻 IT Resources Innovations LLC — Full Stack Developer (contrato por proyectos, remoto)</b> · may 2023 – dic 2025</summary>
+<br/>
+
+- Sitios web responsivos, e-commerce y sistemas de turnos con JavaScript, React, Vite y Express.
+- Microservicios y APIs REST con NestJS bajo Clean Architecture, JWT e integración de APIs de terceros.
+- Optimización de consultas y transacciones SQL, con hasta un **30% menos** de tiempo de respuesta.
 </details>
 
 ---
@@ -186,6 +214,11 @@ const orlando = {
 </p>
 
 <p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Orlando3486/Orlando3486/main/profile-3d-contrib/profile-night-rainbow.svg" alt="Contribuciones en 3D"/>
+</p>
+
+<!-- Animación: para cambiar la viborita por Pac-Man, reemplazá "github-snake" por "pacman-contribution-graph" en las 3 rutas de abajo -->
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Orlando3486/Orlando3486/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Orlando3486/Orlando3486/output/github-snake.svg" />
@@ -207,6 +240,5 @@ Sumarme a un equipo como **Backend o Full Stack Developer** donde pueda trabajar
 
 <!-- ===================== PIE ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1e3a8a,100:0f172a&height=120&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:06b6d4,50:1e3a8a,100:0f172a&height=140&section=footer&reversal=true&text=%C2%A1Gracias%20por%20visitar!&fontSize=26&fontColor=ffffff&fontAlign=70&fontAlignY=72&animation=fadeIn" width="100%"/>
 </p>
-
