@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -14,18 +16,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: Generar Pac-Man
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
       - name: Generar viborita
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Generar Pac-Man
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
+      - name: Ajustar permisos de la carpeta
+        run: sudo chmod -R 777 dist
 
       - name: Publicar en la rama output
         uses: crazy-max/ghaction-github-pages@v4
@@ -40,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Generar gráfico 3D
         uses: yoshi389111/github-profile-3d-contrib@0.7.1
@@ -55,3 +60,4 @@ jobs:
           git add -A .
           git diff --cached --quiet || git commit -m "Actualizar gráfico 3D de contribuciones"
           git push
+          
